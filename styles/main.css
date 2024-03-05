@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: normal;
+}
+
+.svg-inline--fa {
+  height: 2em !important;
+}
+
+.bg-marblr {
+  background-image: url("../assets/images/Marblr_BG.webp");
+  background-color: white;
+  height: auto;
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-main {
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+}
+
+.text-intro {
+  letter-spacing: 1.5px;
+  color: #575756;
+  font-weight: 700;
+}
+
+.text-main {
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  text-shadow: 9px 6px 3px rgba(0, 0, 0, 0.85);
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 25%);
+  width: max-content;
+  font-size: 8.5px;
+}
+
+@media only screen and (min-width: 400px) {
+  .text-main {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .text-main {
+    letter-spacing: 1.5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    line-height: 2rem;
+    font-size: 20px;
+  }
+
+  .text-intro {
+    letter-spacing: 2px;
+  }
+}
