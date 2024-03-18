@@ -10,6 +10,9 @@ export default defineNuxtConfig({
       tailwindcss: {},
     },
   },
+  swiper: {
+
+  },
   plugins: [
     { src: '~/plugins/fontawesome', ssr: false },
   ],

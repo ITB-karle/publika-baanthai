@@ -7,10 +7,16 @@
         </nuxt-link>
         <div class="font-bold hidden md:flex">
           <div>
-            <nuxt-link to="#Galeri" class="px-12 py-2">GALERI</nuxt-link>
+            <nuxt-link to="https://drive.google.com/file/d/1SarQEYhfWAqUNkFflbBNz_UEoluLDwmO/view?usp=drive_link" target="_blank" class="px-8 py-2">JOM BUKA MENU</nuxt-link>
           </div>
           <div>
-            <nuxt-link to="#Hubung" class="bg-primary text-white px-6 py-2 rounded-full">HUBUNGI KAMI</nuxt-link>
+            <nuxt-link to="https://drive.google.com/file/d/1KyWP5qi8wpHwl2xQe3NH6ie0FAT04omK/view?usp=drive_link" target="_blank" class="px-8 py-2">MENU</nuxt-link>
+          </div>
+          <div>
+            <nuxt-link to="#Galeri" class="px-8 py-2">GALERI</nuxt-link>
+          </div>
+          <div>
+            <nuxt-link to="https://wa.link/sfeypg" target="_blank" class="bg-primary text-white mx-6 px-6 py-2 rounded-full">HUBUNGI KAMI</nuxt-link>
           </div>
         </div>
 

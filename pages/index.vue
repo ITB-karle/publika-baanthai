@@ -1,28 +1,50 @@
 <template>
   <div class="relative">
-    <img src="../assets/images/BT3-main.webp" class="relative" alt="">
-    <div class="bg-main">
-      <div class="relative">
-        <div class="lg:text-3xl xl:text-5xl text-main">
-          MALAYSIA BOLEH ! <br>
-          <div class="flex my-1 md:my-2 lg:my-5">
-            <span class="mr-3">
-              <img src="../assets/images/world-flag.webp" alt="" class="w-[15px] md:w-[35px] xl:w-[50px]">
-            </span>
-            <span>🏆</span><br>
+    <swiper
+        slidesPerView="1"
+        :spaceBetween="30"
+        :centeredSlides="true"
+        :loop="true"
+        :autoplay="{
+          delay: 3000,
+          disableOnInteraction: false,
+        }"
+        :pagination="{
+          clickable: true,
+        }"
+        :modules="modules"
+        class="mySwiper"
+      >
+        <swiper-slide>
+          <img src="../assets/images/BT3-main.webp" class="relative" alt="">
+          <div class="bg-main">
+            <div class="relative">
+              <div class="lg:text-3xl xl:text-5xl text-main">
+                MALAYSIA BOLEH ! <br>
+                <div class="flex my-1 md:my-2 lg:my-5">
+                  <span class="mr-3">
+                    <img src="../assets/images/world-flag.webp" alt="" class="w-[15px] md:w-[35px] xl:w-[50px]">
+                  </span>
+                  <span>🏆</span><br>
+                </div>
+                "BAAN THAI" <br>
+                RESTORAN YANG <br>
+                MEMENANGI <br>
+                PERTANDINGAN <br>
+                MASAK <br>
+                ANTARABANGSA DI <br>
+                BANGKOK !
+              </div>
+            </div>
           </div>
-          "BAAN THAI" <br>
-          RESTORAN YANG <br>
-          MEMENANGI <br>
-          PERTANDINGAN <br>
-          MASAK <br>
-          ANTARABANGSA DI <br>
-          BANGKOK !
-        </div>
-    </div>
-    </div>
-    
+        </swiper-slide>
+        <swiper-slide>
+          <img src="../assets/images/Website-Slider_Ramadan.webp" alt="" class="w-full">
+        </swiper-slide>
+      </swiper>
   </div>
+
+  
 
   <section class="bg-marblr py-16 md:pt-24 md:pb-24">
     <div class="container max-w-7xl mx-auto md:grid md:grid-cols-2 flex flex-col-reverse lg:flex-row px-0 md:px-5 lg:px-0 items-center">
@@ -105,3 +127,35 @@
     </div>
   </section>
 </template>
+
+
+<script setup>
+  // Import Swiper Vue.js components
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+
+  // Import Swiper styles
+  import 'swiper/css';
+
+  import 'swiper/css/pagination';
+  import 'swiper/css/navigation';
+
+  // import required modules
+  import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+
+  const modules = [Autoplay, Pagination, Navigation];
+
+  // export default {
+  //   components: {
+  //     Swiper,
+  //     SwiperSlide,
+  //   },
+  //   setup() {
+  //     return {
+  //       modules: [Autoplay, Pagination, Navigation],
+
+  //     };
+      
+  //   },
+  // };
+</script>
