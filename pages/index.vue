@@ -1,6 +1,7 @@
 <template>
   <div class="relative">
-    <swiper
+    <a href="https://wa.link/sfeypg" target="_blank">
+      <swiper
         slidesPerView="1"
         :spaceBetween="30"
         :centeredSlides="true"
@@ -42,6 +43,8 @@
           <img src="../assets/images/Website-Slider_Ramadan.webp" alt="" class="w-full">
         </swiper-slide>
       </swiper>
+    </a>
+    
   </div>
 
   

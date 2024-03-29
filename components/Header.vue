@@ -10,7 +10,7 @@
             <nuxt-link to="https://drive.google.com/file/d/1SarQEYhfWAqUNkFflbBNz_UEoluLDwmO/view?usp=drive_link" target="_blank" class="px-8 py-2">JOM BUKA MENU</nuxt-link>
           </div>
           <div>
-            <nuxt-link to="https://drive.google.com/file/d/1KyWP5qi8wpHwl2xQe3NH6ie0FAT04omK/view?usp=drive_link" target="_blank" class="px-8 py-2">MENU</nuxt-link>
+            <nuxt-link to="https://drive.google.com/file/d/17IdlgDNTpTfrbjZJ-pAV3yyvGwiXO6Ql/view?usp=drive_link" target="_blank" class="px-8 py-2">MENU</nuxt-link>
           </div>
           <div>
             <nuxt-link to="#Galeri" class="px-8 py-2">GALERI</nuxt-link>
