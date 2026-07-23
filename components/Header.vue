@@ -29,7 +29,7 @@
               <nuxt-link @click="closeMenu()" class="px-8 py-2" to="https://drive.google.com/file/d/1IaSkDilkXRWhkAtWORFmWkXcRGNCzoHO/view?usp=drive_link" target="_blank" exact-active-class="active">MENU</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu()" to="https://weborder.zeoniq.com/?parameters=MDE2NjV8aHR0cHM6Ly93ZWJvcmRlcmFwaTEwMC56ZW9uaXEuY29tL3w0MzgwMS0xNDA1MXx8MDAzfDAzLVNETS1DMXx8MHx8fDB8fHx8fHx8MXxPTw%3D%3D&p2=" target="_blank" class="px-8 py-2">ONLINE ORDER</nuxt-link>
+              <nuxt-link @click="closeMenu()" to="https://eorder.zeoniq.store/K68MN4A/my/store/6/003?OrderType=PICKUP" target="_blank" class="px-8 py-2">ONLINE ORDER</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
               <nuxt-link @click="closeMenu()" to="https://wa.link/sfeypg" target="_blank" class="bg-primary text-white mx-6 px-6 py-2 rounded-full">HUBUNGI KAMI</nuxt-link>
